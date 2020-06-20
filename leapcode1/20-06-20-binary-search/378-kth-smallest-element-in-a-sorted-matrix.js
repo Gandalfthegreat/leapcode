@@ -8,7 +8,7 @@ var kthSmallest = function(matrix, k) {
     let low = matrix[0][0];
     let high = matrix[row_len-1][row_len-1];
     while (low < high) {
-        let mid = low + (high - low) / 2;
+        let mid = Math.floor(low + (high - low) / 2);
         let num = lesser(matrix, mid);
         if (num < k) {
             low = mid + 1;
@@ -25,11 +25,13 @@ function lesser(matrix, a) {
     let num = 0;
     row_len = matrix.length;
     while (i < row_len) {
+        j = 0;
         while (j < row_len) {
             if (matrix[i][j] <= a) {
                 num++;
+            } else if (j == 0) {
+                return num;
             } else {
-                j = 0;
                 break;
             }
             j++;
