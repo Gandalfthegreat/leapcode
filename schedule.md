@@ -10,4 +10,4 @@
 | --------------- | --------------- | --------------- | --------------- |
 | 2020-08-23, morning | Chao Wang | Heap | [973](https://leetcode.com/problems/k-closest-points-to-origin/)
 
-*morning: 09:30 - 11:30
+*morning: 09:30 - 11:30, all times are in UTC+8
