@@ -1,0 +1,6 @@
+133 is the basis of the graph / BFS problem. 743 and 785 can be solved by 
+applying minimal changes to the code base of 133.
+
+Most of the graph-related problems can be solved by BFS, which also varies 
+little in code base, so it's productive to get famaliar with the underlying 
+logic of 133.
